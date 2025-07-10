@@ -15,7 +15,7 @@
 
 ## Security Features
 
-### 2.1 Encryption System
+### Encryption System
 - **Algorithm**: AES-256-CBC
 - **Initialization Vector (IV)**: Unique per encryption
 - **Key Management**: Individual encryption keys per user
