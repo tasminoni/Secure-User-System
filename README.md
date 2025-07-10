@@ -38,23 +38,21 @@
 
 ## Usage Guide
 
-### 1 User Registration
+### User Registration
 1. Access the registration page.
 2. Provide username, email, and password.
 3. System encrypts email and hashes the password.
 4. Creates a user-specific encryption key.
 
-### 2 User Login
+### User Login
 1. Enter credentials.
 2. System verifies password hash.
 3. Establishes a secure session.
 
-### 3 Creating Posts
+### Creating Posts
 1. Enter post content.
 2. System encrypts content.
 3. Generates a MAC for integrity.
 4. Stores encrypted data and MAC.
 
----
 
-**Note**: Always ensure your configuration files (e.g., `config.php`) are secure and inaccessible from external sources.
